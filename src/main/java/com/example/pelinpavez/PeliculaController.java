@@ -13,10 +13,10 @@ public class PeliculaController {
 
     public PeliculaController(){
         //Inicializar lista
-        peliculas.add(new Pelicula(1, "Pelicula1", 2011, "Director1", "Comedia", "DescripcionPelicula"));
-        peliculas.add(new Pelicula(2, "Pelicula2", 2012, "Director2", "Drama", "DescripcionPelicula"));
-        peliculas.add(new Pelicula(3, "Pelicula3", 2013, "Director3", "Terror", "DescripcionPelicula"));
-        peliculas.add(new Pelicula(4, "Pelicula4", 2014, "Director4", "Acción", "DescripcionPelicula"));
+        peliculas.add(new Pelicula(1, "Caballeros de la mesa cuadrada", 1975, "Monthy Python", "Comedia", "Alocada comedia que narras las peripecias del rey Arturo y de sus caballeros de la Mesa Redonda durante la búsqueda del Santo Grial. Entre muchas aventuras, el rey Arturo cabalga un caballo imaginario mientras es seguido por su lacayo golpeando unas cáscaras de cocos, se enfrenta a desagradables franceses, combate a un gigante de tres cabezas y reta a un conejo asesino"));
+        peliculas.add(new Pelicula(2, "El señor de los anillos: El retorno del rey", 2003, "Peter Jackson", "Aventura, Fantasía", "Gandalf y Aragorn lideran el Mundo de los hombres, e intentarán atraer la atención de Sauron para darle a Frodo la última oportunidad de completar su misión y así tratar de evitar sucumbir a las continuas tentaciones del Anillo."));
+        peliculas.add(new Pelicula(3, "SAW", 2004, "James Wan", "Horror", "Dos extraños, que se despiertan en una habitación sin recordar cómo llegaron allí, pronto descubren que son peones en un juego mortal perpetrado por un famoso asesino en serie."));
+        peliculas.add(new Pelicula(4, "Milagros Inesperados", 1999, "Frank Darabont", "Drama", "La vida de los guardias en el corredor de la muerte se ve afectada por uno de los reclusos: un hombre negro acusado de violar y asesinar a un niño, pero que tiene un misterioso don."));
     }
 
     @GetMapping("/peliculas")
